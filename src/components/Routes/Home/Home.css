@@ -28,10 +28,7 @@
   box-shadow: solid 12px rgb(131, 132, 133);
 }
 
-
-
 .equipe {
-  
   background-color: rgb(235, 235, 235);
   & .text {
     text-align: justify;
@@ -79,6 +76,22 @@ button:hover::before {
   }
 }
 
-.text{
+.text {
   font-family: "Comfortaa", sans-serif;
+}
+.ionicon img {
+  width: 100%; /* ou um tamanho específico como 200px */
+  height: auto; /* mantém a proporção da imagem */
+  border-radius: 8px; /* opcional: para cantos arredondados */
+  object-fit: cover; /* garante que a imagem cubra bem o espaço */
+}
+
+.card {
+  display: flex;
+  flex-direction: column; /* ou row, dependendo do layout desejado */
+  gap: 1rem;
+  padding: 1rem;
+  background: #fff;
+  border-radius: 8px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
 }
