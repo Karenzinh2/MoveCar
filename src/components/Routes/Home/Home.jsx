@@ -1,5 +1,7 @@
 import "./Home.css";
 
+
+
 export const Home = () => {
   return (
     <div className="Home">
@@ -47,6 +49,7 @@ export const Home = () => {
           <div className="texts">
             <h2>JEEP RENEGADE</h2>
             <p>2.0 16V TURBO DIESEL TRAILHAWK 4P 4X4 AUTOMÁTICO</p>
+            <button>Alugar</button>
           </div>
         </div>
 
@@ -56,6 +59,7 @@ export const Home = () => {
           <div className="texts">
             <h2>JEEP RENEGADE</h2>
             <p>2.0 16V TURBO DIESEL TRAILHAWK 4P 4X4 AUTOMÁTICO</p>
+            <button>Alugar</button>
           </div>
         </div>
 
@@ -65,6 +69,7 @@ export const Home = () => {
           <div className="texts">
             <h2>JEEP RENEGADE</h2>
             <p>2.0 16V TURBO DIESEL TRAILHAWK 4P 4X4 AUTOMÁTICO</p>
+            <button>Alugar</button>
           </div>
         </div>
 
@@ -75,6 +80,7 @@ export const Home = () => {
           <div className="texts">
             <h2>FIAT STRADA</h2>
             <p>1.3 FIREFLY FLEX RANCH CD CVT</p>
+            <button>Alugar</button>
           </div>
         </div>
         <div className="card">
@@ -83,6 +89,7 @@ export const Home = () => {
           <div className="texts">
             <h2>FIAT STRADA</h2>
             <p>1.3 FIREFLY FLEX RANCH CD CVT</p>
+            <button>Alugar</button>
           </div>
         </div>
         <div className="card">
@@ -91,6 +98,7 @@ export const Home = () => {
           <div className="texts">
             <h2>FIAT STRADA</h2>
             <p>1.3 FIREFLY FLEX RANCH CD CVT</p>
+            <button>Alugar</button>
           </div>
         </div>
         <div className="card">
@@ -99,6 +107,7 @@ export const Home = () => {
           <div className="texts">
             <h2>FIAT STRADA</h2>
             <p>1.3 FIREFLY FLEX RANCH CD CVT</p>
+            <button>Alugar</button>
           </div>
         </div>
         <div className="card">
@@ -107,43 +116,48 @@ export const Home = () => {
           <div className="texts">
             <h2>FIAT STRADA</h2>
             <p>1.3 FIREFLY FLEX RANCH CD CVT</p>
+            <button>Alugar</button>
+          </div>
+        </div>
+        <div className="card">
+          <div className="ionicon"></div>
+          <img src="src/assets/Nova-YAMAHA-XT-660-20151-removebg-preview.png"></img>
+
+          <div className="texts">
+            <h2>FIAT STRADA</h2>
+            <p>1.3 FIREFLY FLEX RANCH CD CVT</p>
+            <button>Alugar</button>
           </div>
         </div>
         <div className="card">
           <div className="ionicon"></div>
 
-
+          <img src="src/assets/download-85-removebg-preview.png"></img>
           <div className="texts">
             <h2>FIAT STRADA</h2>
             <p>1.3 FIREFLY FLEX RANCH CD CVT</p>
+            <button>Alugar</button>
           </div>
         </div>
         <div className="card">
           <div className="ionicon"></div>
 
-
+          <img src="src/assets/ac83fa20-bmw-s-1000rr-modelo-2024-branca-com-detalhes-em-azul-preto-vermelho-de-frente-estatica-no-estudio-removebg-preview.png"></img>
           <div className="texts">
             <h2>FIAT STRADA</h2>
             <p>1.3 FIREFLY FLEX RANCH CD CVT</p>
-          </div>
-        </div>
-        <div className="card">
-          <div className="ionicon"></div>
-
-
-          <div className="texts">
-            <h2>FIAT STRADA</h2>
-            <p>1.3 FIREFLY FLEX RANCH CD CVT</p>
+            <button>Alugar</button>
           </div>
         </div>
 
         <div className="card">
           <div className="ionicon">
-
-            
+            <img src="src/assets/png-clipart-honda-elite-scooter-motorcycle-car-honda-scooter-car-removebg-preview.png"></img>
+            <img src=""></img>
             <div className="texts">
               <h2>FIAT STRADA</h2>
               <p>1.3 FIREFLY FLEX RANCH CD CVT</p>
+              <button>Alugar</button>
             </div>
           </div>
         </div>
