@@ -7,9 +7,10 @@
       height: 4em;
   }
   .BtnNav {
+    font-family: "Comfortaa", sans-serif;
     text-decoration: none;
     color: aliceblue;
-    background-color: #13d7ac;
+    background-color: #0d11e7;
     padding: 10px 20px;
     border-radius: 3px;
     transition: 0.3s;
