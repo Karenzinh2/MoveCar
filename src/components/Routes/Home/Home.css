@@ -1,0 +1,84 @@
+.Home {
+  background-color: white;
+}
+
+.services {
+  width: 100%;
+  height: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 100px;
+  padding: 100px 0px;
+  transition: 1s;
+}
+
+.card {
+  width: 350px;
+  height: 500px;
+  background-color: rgba(196, 195, 195, 0.404);
+  padding: 1%;
+  gap: 70px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  border-radius: 20px;
+  box-shadow: solid 12px rgb(131, 132, 133);
+}
+
+
+
+.equipe {
+  
+  background-color: rgb(235, 235, 235);
+  & .text {
+    text-align: justify;
+  }
+  & img {
+  }
+}
+
+.content {
+  max-width: 30%;
+  height: 400px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 40px;
+}
+
+.imgs {
+  display: flex;
+  gap: 30px;
+}
+
+.Btn {
+  width: 9em;
+  height: 3em;
+  font-size: 15px;
+  font-family: inherit;
+  border: none;
+  position: relative;
+  overflow: hidden;
+  z-index: 1;
+  box-shadow: 6px 6px 12px #c5c5c5, -6px -6px 12px #ffffff;
+}
+
+button:hover::before {
+  width: 9em;
+}
+
+.titulosequipe {
+  & h2,
+  h1 {
+    color: rgb(255, 45, 45);
+    font-family: "Comfortaa", sans-serif;
+    font-weight: bold;
+  }
+}
+
+.text{
+  font-family: "Comfortaa", sans-serif;
+}

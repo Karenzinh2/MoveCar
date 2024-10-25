@@ -1,0 +1,60 @@
+.container {
+  margin-top: 10%;
+  width: 450px;
+  background-color: rgba(185, 186, 215, 0.688);
+  backdrop-filter: blur(10px);
+  border: 2px solid rgba(185, 186, 215, 0.688);
+  padding: 65px;
+  border-radius: 10px;
+}
+
+.container h1 {
+  font-family: "Comfortaa", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: weight;
+  font-style: normal;
+  text-align: center;
+  font-size: 40px;
+  color: rgba(2, 27, 255, 0.863);
+  font-weight: 550;
+  font-style: normal;
+  font-optical-sizing: auto;
+}
+
+.container input-field {
+  position: relative;
+  width: 100%;
+  height: 50px;
+  margin: 50px auto;
+}
+
+.loginCentro {
+  display: flex;
+  justify-content: center;
+}
+
+#email {
+  font-family: "Comfortaa", sans-serif;
+}
+
+#formLogin {
+  font-family: "Comfortaa", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: weight;
+  font-style: normal;
+}
+
+#senha {
+  font-family: "Comfortaa", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: weight;
+  font-style: normal;
+}
+
+#esqueceuSenha {
+  font-size: 10pt;
+}
+
+#btnEntrar {
+  background: rgb(4, 0, 255);
+}

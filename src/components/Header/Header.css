@@ -1,0 +1,22 @@
+.links {
+    text-decoration: none;
+    color: aliceblue;
+  }
+  
+  nav{
+      height: 4em;
+  }
+  .BtnNav {
+    text-decoration: none;
+    color: aliceblue;
+    background-color: #13d7ac;
+    padding: 10px 20px;
+    border-radius: 3px;
+    transition: 0.3s;
+    width: 100px;
+    height: 3em;
+  }
+  
+  .Btn:hover {
+    scale: 1.05;
+  }

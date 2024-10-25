@@ -1,0 +1,61 @@
+/* imports */
+
+/* imports */
+@import url("https://fonts.googleapis.com/css2?family=Comfortaa:wght@300..700&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.App {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+ 
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+  margin: 0;
+  padding: 0;
+  background-attachment: fixed;
+}
+
+body {
+ 
+  background-size: cover;
+  background-position: center;
+  height: 100dvh;
+  font-optical-sizing: auto;
+  font-style: normal;
+  text-align: center;
+  font-size: 40px;
+  font-weight: 700;
+  font-style: normal;
+  font-optical-sizing: auto;
+}
+
+#root {
+  height: 100dvh;
+}
+
+.texts {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+  gap: 20px;
+  font-family: "Comfortaa", sans-serif;
+}
+
+.texts h2 {
+  font-weight: bold;
+  font-size: 25px;
+}
+
+.texts p {
+  color: rgb(131, 132, 133);
+}
